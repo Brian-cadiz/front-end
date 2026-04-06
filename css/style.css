@@ -1,0 +1,43 @@
+
+body{
+    background-color: rgb(120, 181, 238);
+    margin: 0px;
+    font-family: "Saira Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+     "wdth" 100;
+}
+
+main{
+    padding: 0px 100px;
+}
+
+header{
+    background-color: black;
+}
+
+nav li{
+    padding: 20px;
+}
+
+nav li:hover{
+    background-color: grey;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0px
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(226, 231, 236);
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
