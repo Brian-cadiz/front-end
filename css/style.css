@@ -41,3 +41,27 @@ nav a{
 nav a:hover{
     color: blueviolet;
 }
+
+#s1{
+    margin-top: 50px;
+    background-image: url('../Images/Yoshi.jpg'), url('../Images/Yoshi.jpg') , url('../Images/Yoshi.jpg'), url('../Images/Yoshi.jpg') ;
+    background-position: top left, top right , bottom left , bottom right;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    padding: 75px;
+    box-shadow: 3px 3px 10px;
+    text-shadow: 3px 3px 10px darkred;
+}
+
+.p1{
+    text-shadow: 3px 3px 10px darkmagenta;
+    font-size: 20px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.ul{
+   border-left: 3px orange solid; 
+   background-color: blueviolet;
+   border-radius:  20px;
+}
